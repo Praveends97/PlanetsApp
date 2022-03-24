@@ -1,0 +1,46 @@
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (min-height: 768px) {
+  .image {
+    width: 405px;
+    height: 292px;
+  }
+}
+
+.name {
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+}
+
+.description {
+  color: red;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
